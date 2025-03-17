@@ -22,6 +22,11 @@ export default function Services() {
                             Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
                         </Card>
                     </div>
+                    <div className="pt-6 w-full md:w-4/12 px-4 text-center animate__animated animate__bounceInRight animate__delay-0.3s">
+                        <Card bgClass="bg-black" bgCircle="bg-yellow-400" cardName="Carta 4">
+                            Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
+                        </Card>
+                    </div>
                 </div>
             </section>
             <section className="pb-20">
