@@ -45,7 +45,7 @@ export default function Navbar(props) {
         <div
           className={
             "lg:flex mr-auto ml-auto items-center lg:bg-transparent lg:shadow-none" +
-            (navbarOpen ? " py-16 bg-[#433455] flex justify-center items-center flex-col fixed w-screen h-/2 top-0 left-0 transition-transform duration-300 transform translate-y-0" : " hidden")
+            (navbarOpen ? " py-16 bg-[#433455] flex justify-center items-center flex-col fixed w-screen h-/2 top-4 left-4 transition-transform duration-300 transform translate-y-0" : " hidden")
           }
           id="example-navbar-warning"
         >
@@ -66,11 +66,12 @@ export default function Navbar(props) {
           <ul className="flex flex-col lg:flex-row list-none">
             <li className="flex items-center">
               <Link className={
+                
                 (props.transparent
                   ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                   : "text-gray-800 hover:text-gray-600") +
                 " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
-              } to="/">HOME</Link>
+              } to="/">HOme</Link>
             </li>
           </ul>
 
@@ -83,7 +84,7 @@ export default function Navbar(props) {
                   ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                   : "text-gray-800 hover:text-gray-600") +
                 " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
-              } to="/about_us">Nosotros</Link>
+              } to="/about_us">About us</Link>
             </li>
           </ul>
 
@@ -94,7 +95,29 @@ export default function Navbar(props) {
                   ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                   : "text-gray-800 hover:text-gray-600") +
                 " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
-              } to="services">servicios</Link>
+              } to="services">Get a quote</Link>
+            </li>
+          </ul>
+
+          <ul className="flex flex-col lg:flex-row list-none">
+            <li className="flex items-center">
+            <Link className={
+                (props.transparent
+                  ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                  : "text-gray-800 hover:text-gray-600") +
+                " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
+              } to="services">Work with us</Link>
+            </li>
+          </ul>
+
+          <ul className="flex flex-col lg:flex-row list-none">
+            <li className="flex items-center">
+            <Link className={
+                (props.transparent
+                  ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                  : "text-gray-800 hover:text-gray-600") +
+                " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
+              } to="services">Services</Link>
             </li>
           </ul>
 
@@ -116,7 +139,7 @@ export default function Navbar(props) {
                   ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                   : "text-gray-800 hover:text-gray-600") +
                 " text-lg px-3 py-4 lg:py-2 flex items-center uppercase font-bold cursor-pointer"
-              } to="/contact_us">CONTACTENOS</Link>
+              } to="/contact_us">Contact us</Link>
             </li>
           </ul>
         </div>
