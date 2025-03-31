@@ -34,7 +34,7 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-5xl animate__animated animate__pulse">
                     Your story starts with us.
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
